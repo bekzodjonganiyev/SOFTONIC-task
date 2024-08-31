@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Reset Password</h1>
+        <h1>Sign In</h1>
     </div>
 </template>
 
