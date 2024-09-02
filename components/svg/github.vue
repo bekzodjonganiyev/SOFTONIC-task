@@ -1,5 +1,5 @@
 <template>
-    <svg xmlns="http://www.w3.org/2000/svg" width="366" height="400" viewBox="0 0 366 400" fill="none">
+    <svg xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" viewBox="0 0 366 400" fill="none">
         <g filter="url(#filter0_f_0_529)">
             <rect x="102" y="136" width="128" height="128" rx="64" fill="url(#paint0_linear_0_529)"
                 fill-opacity="0.48" />
@@ -54,3 +54,16 @@
         </defs>
     </svg>
 </template>
+
+<script setup>
+defineProps({
+    width: {
+        type: String,
+        default: "366"
+    },
+    height: {
+        type: String,
+        default: "400"
+    }
+})
+</script>

@@ -10,6 +10,25 @@ export default {
   theme: {
     extend: {
     },
+    container:{
+      center: true,
+      screens: {
+        "xs": "500px",
+        "sm": "640px",
+        "md": "768px",
+        "lg": "1024px",
+        "xl": "1280px",
+        "2xl": "1440px"
+      },
+      padding:{
+        "xs": "10px",
+        "sm": "20px",
+        "md": "50px",
+        "lg": "120px",
+        "xl": "140px",
+        "2xl": "168px"
+      }
+    }
   },
   plugins: [],
 }

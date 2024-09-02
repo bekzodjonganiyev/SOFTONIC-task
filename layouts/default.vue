@@ -1,5 +1,5 @@
 <template>
-    <div class="relative max-w-[1440px] mx-auto h-screen flex flex-col">
+    <div class="mx-auto h-screen flex flex-col">
         <!-- <Header /> -->
         <main class="flex-1">
             <slot />

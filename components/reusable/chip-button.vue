@@ -3,7 +3,7 @@ const { className } = defineProps(["className"])
 </script>
 
 <template>
-    <div :class="cn('w-fit px-6 py-1 hover:rotate-2 gradient-border cursor-pointer text-[var(--text-secondary)]', className)">
+    <div :class="cn('w-fit px-6 py-1 hover:rotate-1 gradient-border cursor-pointer text-[var(--text-secondary)]', className)">
         <slot />
     </div>
 </template>
