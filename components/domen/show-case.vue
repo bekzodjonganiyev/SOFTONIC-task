@@ -41,19 +41,19 @@
         <div class="flex items-center justify-between gap-20">
             <div class="flex flex-col items-center text-center w-1/3">
                 <SvgScaner class="mb-4"/>
-                <h3 class="text-[var(--text-primary)] text-2xl font-semibold mb-2">Ready for the future</h3>
+                <p class="text-[var(--text-primary)] text-2xl font-semibold mb-2">Ready for the future</p>
                 <p class="text-[var(--text-secondary)]">A flexible foundation that evolves with complex ecosystem.</p>
             </div>
 
             <div class="flex flex-col items-center text-center w-1/3">
-                <SvgScaner class="mb-4"/>
-                <h3 class="text-[var(--text-primary)] text-2xl font-semibold mb-2">Ready for the future</h3>
+                <SvgCode class="mb-4"/>
+                <p class="text-[var(--text-primary)] text-2xl font-semibold mb-2">Ready for the future</p>
                 <p class="text-[var(--text-secondary)]">A flexible foundation that evolves with complex ecosystem.</p>
             </div>
 
             <div class="flex flex-col items-center text-center w-1/3">
-                <SvgScaner class="mb-4"/>
-                <h3 class="text-[var(--text-primary)] text-2xl font-semibold mb-2">Ready for the future</h3>
+                <SvgCheck class="mb-4"/>
+                <p class="text-[var(--text-primary)] text-2xl font-semibold mb-2">Ready for the future</p>
                 <p class="text-[var(--text-secondary)]">A flexible foundation that evolves with complex ecosystem.</p>
             </div>
         </div>

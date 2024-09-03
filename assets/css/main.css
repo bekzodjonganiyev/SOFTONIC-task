@@ -49,14 +49,17 @@
 
     .card {
         background-image: var(--bg-third);
-        @apply p-6
     }
 
-    .clg-r{
+    .clg-r {
         @apply border border-red-500
     }
 
-    .clg-g{
+    .clg-g {
         @apply border border-green-500
+    }
+
+    .custom-list-image {
+        list-style-image: url("../../assets/svgs/list-type-check.svg");
     }
 }
