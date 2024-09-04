@@ -1,8 +1,8 @@
 <template>
     <header class="w-full h-20 flex justify-between items-center">
-        <SvgMainLogo />
+        <NuxtLink to="/"><SvgMainLogo /></NuxtLink>
 
-        <div class="flex items-center gap-8">
+        <div v-if="layout === 'default'" class="flex items-center gap-8">
             <NuxtLink to="/sign-in" class="text-[var(--text-secondary)]">
                 Sign In
             </NuxtLink>
@@ -15,7 +15,13 @@
 </template>
 
 <script setup>
-
+const { layout } = defineProps({
+    layout: {
+        type: String,
+        default: "default",
+        required: true
+    }
+})
 </script>
 
 <style scoped></style>

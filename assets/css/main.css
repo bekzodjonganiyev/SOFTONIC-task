@@ -7,6 +7,7 @@
         --bg-primary: linear-gradient(180deg, #60A5FA 1.33%, #2563EB 100%);
         --bg-secondary: linear-gradient(180deg, #374151 1.33%, #1F2937 100%);
         --bg-third: linear-gradient(225deg, #1F2937 0%, #1F2937 100%);
+        --bg-four: linear-gradient(0deg, #EC4899 0%, #F472B6 98.67%);
         --bg-main: #111827;
 
         --text-primary: #E5E7EB;
@@ -45,6 +46,10 @@
 
     .btn-secondary {
         background-image: var(--bg-secondary);
+    }
+
+    .btn-third{
+        background-image: var(--bg-four);
     }
 
     .card {
