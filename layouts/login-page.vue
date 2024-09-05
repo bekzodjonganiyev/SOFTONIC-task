@@ -1,8 +1,8 @@
 <template>
     <div class="grid grid-cols-6 h-screen">
         <div class="flex flex-col md:col-span-4 col-span-6">
-            <Header layout="login" class="container"/>
-            <div class="lg:px-72 sm:px-20 p-2">
+            <Header layout="login" class="container max-md:hidden"/>
+            <div class="max-md:py-5 px-3 min-w-[410px]">
                 <slot />
             </div>
         </div>
