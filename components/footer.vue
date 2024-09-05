@@ -1,6 +1,6 @@
 <template>
     <footer class="container grid grid-cols-5 gap-20 py-12 text-[var(--text-secondary)]">
-        <div>
+        <div class="max-lg:col-span-5 max-sm:pl-4">
             <SvgMainLogo class="mb-4" />
             <div class="flex items-center gap-1">
                 <NuxtLink to="#">Terms</NuxtLink>
@@ -9,7 +9,7 @@
             </div>
         </div>
         
-        <div>
+        <div class="max-lg:col-span-2 max-sm:col-span-5 max-sm:pl-4">
             <ul class="space-y-2">
                 <p class="font-medium text-[var(--text-primary)]">PRODUCTS</p>
                 <li><NuxtLink to="#">Neon Manage</NuxtLink></li>
@@ -18,7 +18,7 @@
                 <li><NuxtLink to="#">Experimentation</NuxtLink></li>
             </ul>
         </div>
-        <div>
+        <div class="max-lg:col-span-3 max-sm:col-span-5 max-sm:pl-4">
             <ul class="space-y-2">
                 <p class="font-medium text-[var(--text-primary)]">RESOURCES</p>
                 <li><NuxtLink to="#">Blog</NuxtLink></li>
@@ -28,7 +28,7 @@
             </ul>
         </div>
 
-        <div>
+        <div class="max-lg:col-span-2 max-sm:col-span-5 max-sm:pl-4">
             <ul class="space-y-2">
                 <p class="font-medium text-[var(--text-primary)]">COMPARE</p>
                 <li><NuxtLink to="#">Session Recording</NuxtLink></li>
@@ -38,7 +38,7 @@
             </ul>
         </div>
 
-        <div>
+        <div class="max-lg:col-span-3 max-sm:col-span-5 max-sm:pl-4">
             <ul class="space-y-2">
                 <p class="font-medium text-[var(--text-primary)]">COMPANY</p>
                 <li><NuxtLink to="#">About Us</NuxtLink></li>

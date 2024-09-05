@@ -13,6 +13,7 @@ export default {
     container:{
       center: true,
       screens: {
+        "xxs": "320px",
         "xs": "500px",
         "sm": "640px",
         "md": "768px",
@@ -21,6 +22,7 @@ export default {
         "2xl": "1440px"
       },
       padding:{
+        "xxs": "10px",
         "xs": "10px",
         "sm": "20px",
         "md": "50px",

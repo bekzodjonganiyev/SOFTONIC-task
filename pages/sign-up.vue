@@ -1,7 +1,7 @@
 <template>
     <div class="w-96 mx-auto">
         <form>
-            <h1 class="text-5xl text-[var(--text-primary)] font-semibold mb-8">Sign Up</h1>
+            <h1 class="xl:text-5xl lg:text-4xl text-2xl text-[var(--text-primary)] font-semibold mb-8">Sign Up</h1>
 
             <ReusableInput is-required="true" label="Email" type="email" class="mb-4"/>
 

@@ -1,7 +1,7 @@
 <template>
     <div class="w-96 mx-auto">
         <form>
-            <h1 class="text-5xl text-[var(--text-primary)] font-semibold mb-8">Reset password</h1>
+            <h1 class="xl:text-5xl lg:text-4xl text-2xl text-[var(--text-primary)] font-semibold mb-8">Reset password</h1>
 
             <p class="italic text-[#6B7280] mb-8">Enter your email address. If an account exists, you’ll receive an email with a password reset link soon.</p>
 

@@ -1,9 +1,9 @@
 <template>
     <div class="relative py-20 testimonals-bg">
         <div class="container">
-            <h2 class="text-5xl font-bold text-center text-[var(--text-primary)] mb-20">Sound too good ? Hear what our<br>customers have to say</h2>
+            <h2 class="xl:text-5xl lg:text-4xl text-2xl font-bold text-center text-[var(--text-primary)] mb-20">Sound too good ? Hear what our<br>customers have to say</h2>
 
-            <div class="relative grid grid-cols-3 gap-6 testimonals-grid-bg">
+            <div class="relative grid md:grid-cols-3 grid-cols-1 gap-6 testimonals-grid-bg">
                 <ReusableTestimonalCard v-for="(testimonal, id) in testimonals" :key="id" :="testimonal"/>
             </div>
         </div>

@@ -8,7 +8,7 @@
                     Launching Infinite Workspaces. <span class="text-[var(--text-third)]">Learn More -></span>
                 </ReusableChipButton>
 
-                <h1 class="text-[var(--text-primary)] text-7xl font-bold mb-7">Where the world <br> builds software</h1>
+                <h1 class="text-[var(--text-primary)] xl:text-7xl lg:text-4xl text-3xl font-bold mb-7">Where the world <br> builds software</h1>
 
                 <p class="text-[var(--text-secondary)] mb-8">Our landing page template works on all devices, so you only
                     have to <br> set it up once, and get beautiful results forever.</p>

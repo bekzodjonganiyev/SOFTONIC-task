@@ -32,6 +32,11 @@
 
     body {
         background-color: var(--bg-main);
+        min-width: 320px;
+    }
+
+    h2 {
+        @apply xl:text-4xl lg:text-3xl md:text-xl text-sm
     }
 }
 
@@ -48,7 +53,7 @@
         background-image: var(--bg-secondary);
     }
 
-    .btn-third{
+    .btn-third {
         background-image: var(--bg-four);
     }
 
@@ -62,6 +67,10 @@
 
     .clg-g {
         @apply border border-green-500
+    }
+
+    .container {
+        @apply max-sm:p-2
     }
 
     .custom-list-image {
